@@ -1,0 +1,22 @@
+#rotate{
+	transform: rotate(135deg);
+}
+
+#skew{
+	transform: skew(45deg); 
+}
+
+#all{
+	transform: rotate(76deg);
+	transform: skew(20deg);
+}
+
+@keyframes yes{
+	0% {transform: rotate(0deg); opacity: 1;}
+	50% {opacity: 0.5;}
+	100% {transform: rotate(360deg); opacity: 1;}
+}
+
+#animate{
+	animation: yes 6s infinite;
+}
